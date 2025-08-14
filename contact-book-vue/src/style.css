@@ -1,0 +1,133 @@
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3bac65;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #e7e6c9;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #2f3640;
+}
+
+h2 {
+  margin-top: 0;
+  color: #2f3640; 
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #e1dcdd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #273c75;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 16px;
+  margin: 5px 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Specific Button Styles */
+.btn-home {
+  background-color: #718093;
+  color: white;
+}
+
+.btn-home:hover {
+  background-color: #636e72;
+}
+
+.btn-delete {
+  background-color: #e84118;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c23616;
+}
+
+.btn-add {
+  background-color: #44bd32;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #4cd137;
+}
+
+/* Cards */
+.card {
+  background-color: #63d777;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Contact List */
+.contact-list {
+  padding: 0;
+  margin-top: 15px;
+}
+
+.contact-list li {
+  margin: 8px 0;
+  list-style: none;
+}
+
+.contact-list a {
+  cursor: pointer;
+  color: #273c75;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* Form Buttons Alignment */
+form button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 550px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
